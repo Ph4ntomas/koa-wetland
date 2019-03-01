@@ -41,7 +41,7 @@ Returns an entity manager scope that only apply on the current context,
 and will only live as long as the current context does.
 This function memoize the manager.
 
-#### req.getRepository(Entity)
+#### ctx.getRepository(Entity)
 Returns the repository for given `Entity` reference, or identity string.
 
 ## License
