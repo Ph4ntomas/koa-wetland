@@ -1,6 +1,6 @@
 {
   "name": "koa-wetland",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wetland middleware for koaJS.",
   "author": "Phantomas <phantomas@phantomas.xyz>",
   "homepage": "https://github.com/Ph4ntomas/koa-wetland#readme",
