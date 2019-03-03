@@ -1,6 +1,6 @@
 let _wetland;
 
-async function _koaWetland(ctx, next) {
+async function koaWetland(ctx, next) {
     //manager memoization
     let manager;
     let getManager = () => {
@@ -30,5 +30,5 @@ async function _koaWetland(ctx, next) {
 
 module.exports = (wetland) => {
     _wetland = wetland;
-    return _koaWetland;
+    return koaWetland;
 };
